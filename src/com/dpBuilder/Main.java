@@ -17,7 +17,7 @@ public class Main {
 
         Carset carset = director.getCarset();
 
-        carset.toString();
+        System.out.println(carset.toString());
 
     }
 }

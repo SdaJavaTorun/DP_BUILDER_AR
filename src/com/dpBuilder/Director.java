@@ -14,6 +14,7 @@ public class Director {
     }
 
     public void build() {
+        builder.newCar();
         builder.buildEngine();
         builder.buildHood();
         builder.buildLacquer();
